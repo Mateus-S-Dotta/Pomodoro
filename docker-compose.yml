@@ -1,0 +1,10 @@
+services:
+  builder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # Monta a pasta local ./release dentro do container.
+    # É assim que o .exe gerado pelo electron-builder "sai" do container
+    # e fica disponível no Windows, na pasta ./release do projeto.
+    volumes:
+      - ./release:/project/release
