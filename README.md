@@ -15,7 +15,7 @@ release/Pomodoro Setup.exe
 ```
 Um arquivo que abre o pomodoro diretamente:
 ```
-
+release/win-unpacked/Pomodoro.exe
 ```
 
 - `docker compose build` apenas constrói a imagem (instala Node/deps/Wine dentro dela).
