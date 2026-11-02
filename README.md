@@ -1,5 +1,21 @@
 # React + TypeScript + Vite
 
+## Rodar via ps1
+
+Esse script tem vários passos
+1. Iniciar Docker
+2. Buildar o app
+3. Criar o atalho
+4. Parar container e deletar imagem
+```
+powershell -ExecutionPolicy Bypass -File .\criar-atalho.ps1
+```
+
+Para remover o atalho e remover tudo
+```
+powershell -ExecutionPolicy Bypass -File .\remover-atalho.ps1
+```
+
 ## Gerar o instalador Windows (.exe) via Docker
 
 Não é necessário ter Node.js, npm ou Electron instalados. É necessário apenas ter o Docker instalado.
